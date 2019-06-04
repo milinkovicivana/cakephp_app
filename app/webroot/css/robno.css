@@ -1,0 +1,27 @@
+.main{
+	width: 100%;
+}
+
+div.col_4{
+	float: right;
+	width: 80%;
+}
+
+div.search{
+	float: left;
+}
+
+div.search input{
+	float: left;
+}
+
+div.mn{
+	width: 100%;
+}
+
+.searchinput{
+	border:solid thin lightgrey;
+	border-radius: 14px;
+	float: left;
+}
+

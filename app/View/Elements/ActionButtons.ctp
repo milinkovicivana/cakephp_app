@@ -1,0 +1,2 @@
+<td><?php echo $this->Html->link('Edit',array('action'=>'save',$id),array('class' => 'button')); ?></td>
+<td><?php if($deleted){echo 'Deleted';}else{echo $this->Form->postLink('Delete',array('action'=>'delete',$id),array('confirm'=>'Are you sure?','class'=>'button'));}?></td>
